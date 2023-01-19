@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E0F2A772979F3CB00E159BC /* ASF_VertexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F2A762979F3CB00E159BC /* ASF_VertexApp.swift */; };
+		2E0F2A792979F3CB00E159BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F2A782979F3CB00E159BC /* ContentView.swift */; };
+		2E0F2A7B2979F3CC00E159BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0F2A7A2979F3CC00E159BC /* Assets.xcassets */; };
+		2E0F2A7E2979F3CC00E159BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0F2A7D2979F3CC00E159BC /* Preview Assets.xcassets */; };
+		2E0F2A882979F3CD00E159BC /* ASF_VertexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F2A872979F3CD00E159BC /* ASF_VertexTests.swift */; };
+		2E0F2A922979F3CD00E159BC /* ASF_VertexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F2A912979F3CD00E159BC /* ASF_VertexUITests.swift */; };
+		2E0F2A942979F3CD00E159BC /* ASF_VertexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F2A932979F3CD00E159BC /* ASF_VertexUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E0F2A842979F3CD00E159BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E0F2A6B2979F3CB00E159BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E0F2A722979F3CB00E159BC;
+			remoteInfo = "ASF Vertex";
+		};
+		2E0F2A8E2979F3CD00E159BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E0F2A6B2979F3CB00E159BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E0F2A722979F3CB00E159BC;
+			remoteInfo = "ASF Vertex";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E0F2A732979F3CB00E159BC /* ASF Vertex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ASF Vertex.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E0F2A762979F3CB00E159BC /* ASF_VertexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASF_VertexApp.swift; sourceTree = "<group>"; };
+		2E0F2A782979F3CB00E159BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2E0F2A7A2979F3CC00E159BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E0F2A7D2979F3CC00E159BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E0F2A832979F3CD00E159BC /* ASF VertexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ASF VertexTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E0F2A872979F3CD00E159BC /* ASF_VertexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASF_VertexTests.swift; sourceTree = "<group>"; };
+		2E0F2A8D2979F3CD00E159BC /* ASF VertexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ASF VertexUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E0F2A912979F3CD00E159BC /* ASF_VertexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASF_VertexUITests.swift; sourceTree = "<group>"; };
+		2E0F2A932979F3CD00E159BC /* ASF_VertexUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASF_VertexUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E0F2A702979F3CB00E159BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E0F2A802979F3CD00E159BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E0F2A8A2979F3CD00E159BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E0F2A6A2979F3CB00E159BC = {
+			isa = PBXGroup;
+			children = (
+				2E0F2A752979F3CB00E159BC /* ASF Vertex */,
+				2E0F2A862979F3CD00E159BC /* ASF VertexTests */,
+				2E0F2A902979F3CD00E159BC /* ASF VertexUITests */,
+				2E0F2A742979F3CB00E159BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E0F2A742979F3CB00E159BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E0F2A732979F3CB00E159BC /* ASF Vertex.app */,
+				2E0F2A832979F3CD00E159BC /* ASF VertexTests.xctest */,
+				2E0F2A8D2979F3CD00E159BC /* ASF VertexUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E0F2A752979F3CB00E159BC /* ASF Vertex */ = {
+			isa = PBXGroup;
+			children = (
+				2E0F2A762979F3CB00E159BC /* ASF_VertexApp.swift */,
+				2E0F2A782979F3CB00E159BC /* ContentView.swift */,
+				2E0F2A7A2979F3CC00E159BC /* Assets.xcassets */,
+				2E0F2A7C2979F3CC00E159BC /* Preview Content */,
+			);
+			path = "ASF Vertex";
+			sourceTree = "<group>";
+		};
+		2E0F2A7C2979F3CC00E159BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2E0F2A7D2979F3CC00E159BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2E0F2A862979F3CD00E159BC /* ASF VertexTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E0F2A872979F3CD00E159BC /* ASF_VertexTests.swift */,
+			);
+			path = "ASF VertexTests";
+			sourceTree = "<group>";
+		};
+		2E0F2A902979F3CD00E159BC /* ASF VertexUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E0F2A912979F3CD00E159BC /* ASF_VertexUITests.swift */,
+				2E0F2A932979F3CD00E159BC /* ASF_VertexUITestsLaunchTests.swift */,
+			);
+			path = "ASF VertexUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E0F2A722979F3CB00E159BC /* ASF Vertex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E0F2A972979F3CD00E159BC /* Build configuration list for PBXNativeTarget "ASF Vertex" */;
+			buildPhases = (
+				2E0F2A6F2979F3CB00E159BC /* Sources */,
+				2E0F2A702979F3CB00E159BC /* Frameworks */,
+				2E0F2A712979F3CB00E159BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ASF Vertex";
+			productName = "ASF Vertex";
+			productReference = 2E0F2A732979F3CB00E159BC /* ASF Vertex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E0F2A822979F3CD00E159BC /* ASF VertexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E0F2A9A2979F3CD00E159BC /* Build configuration list for PBXNativeTarget "ASF VertexTests" */;
+			buildPhases = (
+				2E0F2A7F2979F3CD00E159BC /* Sources */,
+				2E0F2A802979F3CD00E159BC /* Frameworks */,
+				2E0F2A812979F3CD00E159BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E0F2A852979F3CD00E159BC /* PBXTargetDependency */,
+			);
+			name = "ASF VertexTests";
+			productName = "ASF VertexTests";
+			productReference = 2E0F2A832979F3CD00E159BC /* ASF VertexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E0F2A8C2979F3CD00E159BC /* ASF VertexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E0F2A9D2979F3CD00E159BC /* Build configuration list for PBXNativeTarget "ASF VertexUITests" */;
+			buildPhases = (
+				2E0F2A892979F3CD00E159BC /* Sources */,
+				2E0F2A8A2979F3CD00E159BC /* Frameworks */,
+				2E0F2A8B2979F3CD00E159BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E0F2A8F2979F3CD00E159BC /* PBXTargetDependency */,
+			);
+			name = "ASF VertexUITests";
+			productName = "ASF VertexUITests";
+			productReference = 2E0F2A8D2979F3CD00E159BC /* ASF VertexUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E0F2A6B2979F3CB00E159BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2E0F2A722979F3CB00E159BC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					2E0F2A822979F3CD00E159BC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2E0F2A722979F3CB00E159BC;
+					};
+					2E0F2A8C2979F3CD00E159BC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2E0F2A722979F3CB00E159BC;
+					};
+				};
+			};
+			buildConfigurationList = 2E0F2A6E2979F3CB00E159BC /* Build configuration list for PBXProject "ASF Vertex" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E0F2A6A2979F3CB00E159BC;
+			productRefGroup = 2E0F2A742979F3CB00E159BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E0F2A722979F3CB00E159BC /* ASF Vertex */,
+				2E0F2A822979F3CD00E159BC /* ASF VertexTests */,
+				2E0F2A8C2979F3CD00E159BC /* ASF VertexUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E0F2A712979F3CB00E159BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0F2A7E2979F3CC00E159BC /* Preview Assets.xcassets in Resources */,
+				2E0F2A7B2979F3CC00E159BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E0F2A812979F3CD00E159BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E0F2A8B2979F3CD00E159BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E0F2A6F2979F3CB00E159BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0F2A792979F3CB00E159BC /* ContentView.swift in Sources */,
+				2E0F2A772979F3CB00E159BC /* ASF_VertexApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E0F2A7F2979F3CD00E159BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0F2A882979F3CD00E159BC /* ASF_VertexTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E0F2A892979F3CD00E159BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0F2A922979F3CD00E159BC /* ASF_VertexUITests.swift in Sources */,
+				2E0F2A942979F3CD00E159BC /* ASF_VertexUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E0F2A852979F3CD00E159BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E0F2A722979F3CB00E159BC /* ASF Vertex */;
+			targetProxy = 2E0F2A842979F3CD00E159BC /* PBXContainerItemProxy */;
+		};
+		2E0F2A8F2979F3CD00E159BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E0F2A722979F3CB00E159BC /* ASF Vertex */;
+			targetProxy = 2E0F2A8E2979F3CD00E159BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2E0F2A952979F3CD00E159BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E0F2A962979F3CD00E159BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E0F2A982979F3CD00E159BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ASF Vertex/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asf.ASF-Vertex";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E0F2A992979F3CD00E159BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ASF Vertex/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asf.ASF-Vertex";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2E0F2A9B2979F3CD00E159BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asf.ASF-VertexTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASF Vertex.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ASF Vertex";
+			};
+			name = Debug;
+		};
+		2E0F2A9C2979F3CD00E159BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asf.ASF-VertexTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASF Vertex.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ASF Vertex";
+			};
+			name = Release;
+		};
+		2E0F2A9E2979F3CD00E159BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asf.ASF-VertexUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ASF Vertex";
+			};
+			name = Debug;
+		};
+		2E0F2A9F2979F3CD00E159BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asf.ASF-VertexUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ASF Vertex";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E0F2A6E2979F3CB00E159BC /* Build configuration list for PBXProject "ASF Vertex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E0F2A952979F3CD00E159BC /* Debug */,
+				2E0F2A962979F3CD00E159BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E0F2A972979F3CD00E159BC /* Build configuration list for PBXNativeTarget "ASF Vertex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E0F2A982979F3CD00E159BC /* Debug */,
+				2E0F2A992979F3CD00E159BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E0F2A9A2979F3CD00E159BC /* Build configuration list for PBXNativeTarget "ASF VertexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E0F2A9B2979F3CD00E159BC /* Debug */,
+				2E0F2A9C2979F3CD00E159BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E0F2A9D2979F3CD00E159BC /* Build configuration list for PBXNativeTarget "ASF VertexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E0F2A9E2979F3CD00E159BC /* Debug */,
+				2E0F2A9F2979F3CD00E159BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E0F2A6B2979F3CB00E159BC /* Project object */;
+}
