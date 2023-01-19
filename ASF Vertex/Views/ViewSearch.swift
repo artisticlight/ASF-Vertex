@@ -1,0 +1,26 @@
+//
+//  ViewSearch.swift
+//  ASF Vertex
+//
+//  Created by Andrew Anderson on 1/19/23.
+//
+
+import SwiftUI
+
+struct ViewSearch: View {
+    var body: some View {
+        ZStack {
+            Color.red
+            
+            Image(systemName: "magnifyingglass.circle")
+                .foregroundColor(Color.white)
+                .font(.system(size: 100.0))
+        }
+    }
+}
+
+struct ViewSearch_Previews: PreviewProvider {
+    static var previews: some View {
+        ViewSearch()
+    }
+}
