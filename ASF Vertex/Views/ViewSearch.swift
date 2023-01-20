@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ViewSearch: View {
     var body: some View {
+        
         ZStack {
             Color.red
             
