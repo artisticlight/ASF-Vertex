@@ -14,9 +14,6 @@
 		2E0F2A882979F3CD00E159BC /* ASF_VertexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F2A872979F3CD00E159BC /* ASF_VertexTests.swift */; };
 		2E0F2A922979F3CD00E159BC /* ASF_VertexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F2A912979F3CD00E159BC /* ASF_VertexUITests.swift */; };
 		2E0F2A942979F3CD00E159BC /* ASF_VertexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F2A932979F3CD00E159BC /* ASF_VertexUITestsLaunchTests.swift */; };
-		2E0F2AA22979F75F00E159BC /* ViewA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F2AA12979F75F00E159BC /* ViewA.swift */; };
-		2E0F2AA42979F77F00E159BC /* ViewB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F2AA32979F77F00E159BC /* ViewB.swift */; };
-		2E0F2AA62979F79500E159BC /* ViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F2AA52979F79500E159BC /* ViewC.swift */; };
 		2E0F2AA82979FEB400E159BC /* ViewSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F2AA72979FEB400E159BC /* ViewSearch.swift */; };
 		2E0F2AAA297A039900E159BC /* ViewResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F2AA9297A039900E159BC /* ViewResults.swift */; };
 		2E0F2AAC297A052800E159BC /* ViewCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F2AAB297A052800E159BC /* ViewCart.swift */; };
@@ -52,9 +49,6 @@
 		2E0F2A8D2979F3CD00E159BC /* ASF VertexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ASF VertexUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E0F2A912979F3CD00E159BC /* ASF_VertexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASF_VertexUITests.swift; sourceTree = "<group>"; };
 		2E0F2A932979F3CD00E159BC /* ASF_VertexUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASF_VertexUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		2E0F2AA12979F75F00E159BC /* ViewA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewA.swift; sourceTree = "<group>"; };
-		2E0F2AA32979F77F00E159BC /* ViewB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewB.swift; sourceTree = "<group>"; };
-		2E0F2AA52979F79500E159BC /* ViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewC.swift; sourceTree = "<group>"; };
 		2E0F2AA72979FEB400E159BC /* ViewSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSearch.swift; sourceTree = "<group>"; };
 		2E0F2AA9297A039900E159BC /* ViewResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewResults.swift; sourceTree = "<group>"; };
 		2E0F2AAB297A052800E159BC /* ViewCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCart.swift; sourceTree = "<group>"; };
@@ -147,9 +141,6 @@
 		2E0F2AA02979F70000E159BC /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2E0F2AA12979F75F00E159BC /* ViewA.swift */,
-				2E0F2AA32979F77F00E159BC /* ViewB.swift */,
-				2E0F2AA52979F79500E159BC /* ViewC.swift */,
 				2E0F2AA72979FEB400E159BC /* ViewSearch.swift */,
 				2E0F2AA9297A039900E159BC /* ViewResults.swift */,
 				2E0F2AAB297A052800E159BC /* ViewCart.swift */,
@@ -290,15 +281,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E0F2A792979F3CB00E159BC /* ContentView.swift in Sources */,
-				2E0F2AA22979F75F00E159BC /* ViewA.swift in Sources */,
 				2E0F2AA82979FEB400E159BC /* ViewSearch.swift in Sources */,
-				2E0F2AA62979F79500E159BC /* ViewC.swift in Sources */,
 				2E0F2AAA297A039900E159BC /* ViewResults.swift in Sources */,
 				2E0F2A772979F3CB00E159BC /* ASF_VertexApp.swift in Sources */,
 				2E0F2AB0297A066700E159BC /* ViewProfile.swift in Sources */,
 				2E0F2AAE297A05A500E159BC /* ViewHelp.swift in Sources */,
 				2E0F2AAC297A052800E159BC /* ViewCart.swift in Sources */,
-				2E0F2AA42979F77F00E159BC /* ViewB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +445,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ASF Vertex/Preview Content\"";
+				DEVELOPMENT_TEAM = 57B87BY8AW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -485,6 +474,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ASF Vertex/Preview Content\"";
+				DEVELOPMENT_TEAM = 57B87BY8AW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
