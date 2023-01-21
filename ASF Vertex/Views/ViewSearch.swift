@@ -19,13 +19,10 @@ struct ViewSearch: View {
             Section {
                 ZStack {
                     Map(coordinateRegion: $region, showsUserLocation: true, userTrackingMode: .constant(.follow))
-                    .frame(width: .infinity, height: 500)
-                    
                 }
             }
+            .frame(width: .infinity, height: 500)
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .navigationTitle("ASF Search")
     }
 }
 
